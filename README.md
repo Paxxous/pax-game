@@ -13,4 +13,4 @@ Feel free to explore the codebase! Maybe you'll learn something new!!!
 
 I'm structuring all of this through creativity, so ideas may be efficient or inefficient
 
-*this was programmed in vim... (VIM POWER >:DDD)[https://neovim.io/]*
+*this was programmed in vim... [VIM POWER >:DDD](https://neovim.io/)*
