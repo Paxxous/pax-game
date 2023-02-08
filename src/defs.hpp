@@ -1,1 +1,1 @@
-#define ASF "1.3.0"
+#define CURRENT_VERSION "1.0.0"
