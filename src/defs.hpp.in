@@ -1,0 +1,1 @@
+#define ASF "@CMAKE_PROJECT_VERSION@"
