@@ -38,3 +38,5 @@ dist
 
 # (I don't know if symlinked files count...)
 compile_commands.json
+# okay, when I write to the file with the command :w , and because the colon is so close to the semicolon, I go owah! and my dumbass types :w; , which creates a file under the name of a colon, and it holds all of the code that I had in that instant. I'm such a quirky little dude!$%!?&$
+;
