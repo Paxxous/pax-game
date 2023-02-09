@@ -2,13 +2,13 @@ set(ENGINE_SOURCE_FILES
   "engine.cpp"
   "engine.hpp"
 
-  "entity/entity.cpp"
-  "entity/entity.hpp"
+  "core/entity.cpp"
+  "core/entity.hpp"
 
-  "dat_structs/vector2.hpp"
+  "core/vector2.hpp"
 
-  "time/dt.hpp"
-  "time/dt.cpp"
+  "core/timestep.hpp"
+  "core/timestep.cpp"
 ) # HAHAHAH FUCK YOU CMAKE 🖕🖕🖕🖕🖕🖕🖕
 
 add_library(engine STATIC ${ENGINE_SOURCE_FILES})

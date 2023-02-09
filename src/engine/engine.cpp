@@ -1,8 +1,6 @@
 #include <SDL2/SDL.h>
 #include <iostream>
 
-
-#include "entity/entity.hpp"
 #include "engine.hpp"
 
 void engine::init() {

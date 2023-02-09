@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "../dat_structs/vector2.hpp"
+#include "vector2.hpp"
 
 // AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 namespace engine {

@@ -2,7 +2,7 @@
 
 #include "entity.hpp"
 
-#include "../dat_structs/vector2.hpp"
+#include "vector2.hpp"
 
 
 /// Get entity pos, (returns vector2f struct)
