@@ -5,6 +5,7 @@
 #include "core/entity.hpp"
 #include "core/timestep.hpp"
 #include "core/vector2.hpp"
+#include "core/window.hpp"
 
 namespace engine {
   void init();

@@ -9,6 +9,9 @@ set(ENGINE_SOURCE_FILES
 
   "core/timestep.hpp"
   "core/timestep.cpp"
+
+  "core/window.cpp"
+  "core/window.hpp"
 ) # HAHAHAH FUCK YOU CMAKE 🖕🖕🖕🖕🖕🖕🖕
 
 add_library(engine STATIC ${ENGINE_SOURCE_FILES})

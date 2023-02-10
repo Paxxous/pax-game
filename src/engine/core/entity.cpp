@@ -9,3 +9,4 @@
 Vector2 engine::entity::get_pos() {
   return pos;
 }
+
