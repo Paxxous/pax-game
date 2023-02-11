@@ -13,7 +13,9 @@ namespace engine {
     public:
       window(const char* title, int w, int h);
 
-      SDL_Texture* load_texture();
+      void render();
+
+      SDL_Texture* loadTexture(const char* path);
     private:
       SDL_Window* win;
       SDL_Renderer* renderer;

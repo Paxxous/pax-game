@@ -21,3 +21,13 @@ engine::window::window(const char* title, int w, int h)
     std::cout << "Error initializing renderer!\n" << SDL_GetError() << "\n";
   }
 }
+
+void engine::window::render() {
+  SDL_RenderClear(renderer); // Clear screen
+  SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0); // Color screen
+  SDL_RenderPresent(renderer); // Present screen
+}
+
+SDL_Texture* engine::window::loadTexture(const char* path) {
+  return NULL;
+}
