@@ -15,6 +15,9 @@ int main(int argc, char* argv[/* its' cool in here */]) {
   // Create a window
   engine::window win("win", 800, 800);
 
+  SDL_Texture* tex = win.loadImage("res/gfx/png/img.png");
+  engine::entity ent(10, 10, tex);
+
   SDL_Event e;
   bool quit = false;
 
@@ -24,8 +27,11 @@ int main(int argc, char* argv[/* its' cool in here */]) {
         quit = true;
       }
     }
+    win.renderClear();
 
-    win.render();
+    win.render(ent);
+
+    win.renderShow();
   }
 
   engine::end();

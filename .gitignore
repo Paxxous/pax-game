@@ -35,6 +35,7 @@
 .ccls-cache
 .vscode
 dist
+web_build
 
 # (I don't know if symlinked files count...)
 compile_commands.json

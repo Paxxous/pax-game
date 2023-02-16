@@ -1,5 +1,8 @@
 // Cross playform?? :0
-#ifdef __linux__
+#ifdef __EMSCRIPTEN__
+#include <emscripten/emscripten.h>
+#include <SDL2/SDL.h>
+#elif __linux__
 #include <SDL2/SDL.h>
 #elif defined(_WIN32)
 #include <SDL.h>

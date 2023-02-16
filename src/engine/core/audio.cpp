@@ -1,4 +1,7 @@
-#ifdef __linux__
+#ifdef __EMSCRIPTEN__
+#include <emscripten/emscripten.h>
+#include <SDL2/SDL_mixer.h>
+#elif __linux__
 #include <SDL2/SDL_mixer.h>
 #elif defined(_WIN32)
 #include <SDL_mixer.h>
