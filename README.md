@@ -20,3 +20,5 @@ I'm structuring all of this through creativity, so ideas may be efficient or ine
 I had to force my git push today, because I somehow made a commit that was ahead of the only folder on my computer with this code... force pushing my commit is finneeeee, right?
 
 Also I didn't abandon this repo!! 🥳🥳🎉🎉 I'm gonna keep updating because I'm actually having a blast with C++ and CMake! Maybe all of this C++ talk is finally getting to my head and I'm going crazy alongside the people that yell at you on Stack-Overflow lmao.
+
+Also forgot to say I attempted to port this to emscripten—and failed (as in it compiled, but crashed)—let's try again later.
